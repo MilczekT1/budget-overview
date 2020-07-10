@@ -1,5 +1,5 @@
 This is quick overview for Budget Project.
-Budget consists of multiple springboot based microservices. All of them are build on top of my own chassis which holds common configuration for plugins, dependency management and defines common topics, for example logging. This way, its not visible (except configuration) that services are using config-client for fetching configuration
+Budget consists of multiple springboot based microservices. All of them are build on top of my own chassis which holds common configuration for plugins, dependency management and defines common topics, for example logging. This way, its not visible here (except configuration) that services are using config-client, spring cloud sleuth, zipkin etc.
 
 * config repository: https://github.com/MilczekT1/config-git
 * Account Management https://github.com/MilczekT1/account-mgt-svc
