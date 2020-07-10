@@ -3,7 +3,7 @@ Budget consists of multiple springboot based microservices. All of them are buil
 
 * config repository: https://github.com/MilczekT1/config-git
 * Account Management https://github.com/MilczekT1/account-mgt-svc
-* Password Managementhttps://github.com/MilczekT1/password-mgt-svc
+* Password Management https://github.com/MilczekT1/password-mgt-svc
 * Mail https://github.com/MilczekT1/mail-svc
 * Family Management https://github.com/MilczekT1/family-mgt-svc
 * Budget Managementhttps://github.com/MilczekT1/budget-mgt-svc
