@@ -1,5 +1,5 @@
 This is quick overview for Budget Project.<br/>
-Latest project version is hosted in bitbucket private repositories and I update from time to time repositories mentioned below. They are stripped off sensitive data and maintenance of  so many repos for pet project as a single developer/qa/devops/whatever maintenance is time consuming task. Some things may not be up to date on github but I sync repos from time to time.<br/><br/> Project is hosted under https://konradboniecki.com.pl but it's not expected to work all the time, especially during development/refactorings. I'll be rich someday and have 2 environments :)
+Latest project version is hosted in bitbucket private repositories and I update from time to time repositories mentioned below. They are stripped off sensitive data and maintenance of so many repos for pet project as a single developer/qa/devops/whatever is time consuming task. Some things may not be up to date on github but I sync repos from time to time.<br/><br/> Project is hosted under https://konradboniecki.com.pl but it's not expected to work all the time, especially during development/refactorings. I'll be rich someday and have 2 environments :)
 
 Budget consists of multiple springboot based microservices. All of them are build on top of my own chassis which holds common configuration for plugins, dependency management and defines common topics, for example logging. This way, its not visible (except configuration) that services are using config-client for fetching configuration
 
@@ -31,3 +31,4 @@ Databases | MongoDB && MySQL
 CI/CD | CircleCi, Kubernetes, Nexus |
 
 [Screenshot](./img/circleci-chassis.png)
+![plot](./img/circleci-chassis.png)
