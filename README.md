@@ -19,7 +19,7 @@ Project contains also config server and gateway, but they are single class appli
 
 Testing:<br/>
 Code coverage >= 80% <br/>
-Contract testing: In order to verify if communication between services is not broken at build time I use consumer driven contracts (Spring Cloud Contract). API producer has to pass generated tests for given contracts and once they are verified API client can mock response for that contract in integration tests. It saved my "platform" several times :)
+Contract testing: In order to verify if communication between services is not broken at build time I use consumer driven contracts (Spring Cloud Contract). API producer has to pass generated tests for given contracts and once they are verified API client can mock response for that contract in integration tests. </br>All contracts are stored in contract-repository. Artifact is hosted in nexus. Api producer downloads contracts during build  in order to generate tests. Api Consumer download stubs during build in order to provide up to date mocks. This saved my "platform" several times from giving up:)
 
 BDD: Acceptance tests which are executed against local environment (maven build) and production environment depending on given profile.
 
@@ -28,7 +28,7 @@ BDD: Acceptance tests which are executed against local environment (maven build)
 Tracking | Spring Cloud Sleuth + Zipkin (https://konradboniecki.com.pl/zipkin/)
 Monitoring | Prometheus, Grafana
 Databases | MongoDB && MySQL
-CI/CD | CircleCi, Kubernetes, Nexus |
+CI/CD | CircleCi, Docker, Kubernetes, Nexus |
 
 Screenshot of chassis pipeline
 ![plot](./img/circleci-chassis.png)
