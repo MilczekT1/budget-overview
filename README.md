@@ -30,5 +30,8 @@ Monitoring | Prometheus, Grafana
 Databases | MongoDB && MySQL
 CI/CD | CircleCi, Kubernetes, Nexus |
 
-[Screenshot](./img/circleci-chassis.png)
+Screenshot of chassis pipeline
 ![plot](./img/circleci-chassis.png)
+
+Example pipeline
+![plot](./img/circleci-pipeline.png)
