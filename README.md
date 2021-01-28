@@ -35,3 +35,6 @@ CI/CD | CircleCi, Docker, Kubernetes, Nexus |
 ![plot](./img/circleci-chassis.png)
 # Example pipeline
 ![plot](./img/circleci-pipeline.png)
+# Release procedure
+![plot](./img/release-procedure.png)
+
