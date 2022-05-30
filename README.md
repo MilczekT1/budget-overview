@@ -4,19 +4,19 @@ Latest project version is hosted in bitbucket private repositories and I update 
 Budget consists of multiple springboot based microservices. All of them are build on top of my own chassis which holds common configuration for plugins, dependency management and defines common topics, for example logging. This way, its not visible (except configuration) that services are using config-client for fetching configuration
 
 ## Repositories
-Below repositories don't not contain any sensitive data and chassis. Therefore they are not runnable.
+Below repositories don't contain chassis therefore they are not runnable.
 
-Repository | link |
---- | --- |
-Config repository | https://github.com/MilczekT1/config-git |
-Account Management | https://github.com/MilczekT1/account-mgt-svc
-Password Management | https://github.com/MilczekT1/password-mgt-svc
-Mail | https://github.com/MilczekT1/mail-svc
-Family Management | https://github.com/MilczekT1/family-mgt-svc
-Budget Management | https://github.com/MilczekT1/budget-mgt-svc
-MVC | https://github.com/MilczekT1/mvc-svc
-
-Project contains also config server and gateway, but they are single class applications.
+Repository | link                                          |
+--- |-----------------------------------------------|
+Config Server | https://github.com/MilczekT1/config-server    |
+Config repository | https://github.com/MilczekT1/config-git       |
+Gateway | https://github.com/MilczekT1/gateway |
+Account Management | https://github.com/MilczekT1/account-mgt-svc  |
+Password Management | https://github.com/MilczekT1/password-mgt-svc |
+Mail | https://github.com/MilczekT1/mail |
+Family Management | https://github.com/MilczekT1/family-mgt-svc |   
+Budget Management | https://github.com/MilczekT1/budget-mgt-svc |  
+MVC | https://github.com/MilczekT1/mvc-svc |
 
 # Testing:<br/>
 Code coverage >= 80% <br/>
@@ -27,8 +27,8 @@ BDD: Acceptance tests which are executed against local environment (maven build)
  Details | Tool |
 --- | --- |
 Tracking | Spring Cloud Sleuth + Zipkin (https://konradboniecki.com.pl/zipkin/)
-Monitoring | Prometheus, Grafana
-Databases | MongoDB && MySQL
+Monitoring | Prometheus, Grafana|
+Databases | MongoDB |
 CI/CD | CircleCi, Docker, Kubernetes, Nexus |
 
 # Screenshot of chassis pipeline
