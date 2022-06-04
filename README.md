@@ -9,7 +9,6 @@ Below repositories don't contain chassis therefore they are not runnable.
 Repository | CI | Coverage | Sonar |
 ---|---|---|---|
 [Config repository](https://github.com/MilczekT1/config-git) | N/A | N/A | X |
-|
 [Config Server](https://github.com/MilczekT1/config-server) | [![CircleCI](https://circleci.com/gh/MilczekT1/mail/tree/master.svg?style=shield)](https://circleci.com/gh/MilczekT1/config-server/tree/master) | [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=MilczekT1_config-server&metric=coverage)](https://sonarcloud.io/summary/new_code?id=MilczekT1_config-server) | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MilczekT1_config-server&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=MilczekT1_config-server) |
 |
 [Gateway](https://github.com/MilczekT1/gateway) | [![CircleCI](https://circleci.com/gh/MilczekT1/mail/tree/master.svg?style=shield)](https://circleci.com/gh/MilczekT1/gateway/tree/master) | [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=MilczekT1_gateway&metric=coverage)](https://sonarcloud.io/summary/new_code?id=MilczekT1_gateway) | [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MilczekT1_gateway&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=MilczekT1_gateway) |
