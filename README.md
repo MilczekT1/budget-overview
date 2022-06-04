@@ -34,7 +34,7 @@ Databases | ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=
 CI/CD | ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style=for-the-badge&logo=circleci&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)  ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) Nexus |                                  |
 Tracing | Spring Cloud Sleuth + Zipkin (https://konradboniecki.com.pl/zipkin/) |
 
-# Screenshot of chassis pipeline
+# Chassis pipeline
 ![plot](./img/circleci-chassis.png)
 # Release procedure
 ![plot](./img/release-procedure.png)
