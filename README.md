@@ -15,6 +15,8 @@ Tracing | Spring Cloud Sleuth + Zipkin (https://konradboniecki.com.pl/zipkin/) |
 
 ## Repositories
 Below repositories don't contain chassis therefore they are not runnable.
+[![GitHub release](https://img.shields.io/github/release/MilczekT1/gateway.svg)](https://GitHub.com/MilczekT1/gateway/tags/)
+[![GitHub release](https://img.shields.io/github/release/MilczekT1/gateway.svg)](https://GitHub.com/MilczekT1/gateway/tags/)
 
 Repository | version | CI | Quality Gate & coverage | Other metrics |
 ---|---|---|---|---|
