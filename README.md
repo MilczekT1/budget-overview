@@ -14,7 +14,6 @@ CI/CD | ![CircleCI](https://img.shields.io/badge/circle%20ci-%23161616.svg?style
 Tracing | Spring Cloud Sleuth + Zipkin (https://konradboniecki.com.pl/zipkin/) |
 
 ## Repositories
-Below repositories don't contain chassis therefore they are not runnable.
 
 Repository | version | CI | Quality Gate & coverage | Other metrics |
 ---|---|---|---|---|
