@@ -3,6 +3,7 @@ Project is hosted under https://konradboniecki.com.pl and is designed to work 24
 
 Budget consists of multiple SpringBoot-based microservices. All of them are build on top of my own chassis which holds common configuration for plugins, dependency management and defines common topics, for example logging. This way, it's not visible that services are using config-client for fetching configuration etc.
 
+Project is closed and may be continued in other form.
 # Tech stack:<br/>
 Details | Tool |
 ---|---|
